@@ -95,6 +95,10 @@ public void exploreApplication()
 	driver.findElement(By.xpath("//span[@aria-label=\"20 August 2024\"]"));
 	driver.findElement(By.xpath("//thead[@class=\"bui-calendar__row\"]/following-sibling::tbody/descendant::span[@aria-label=\"12 July 2024\"]"));
 	
+	//*[name()='path' and @fill="#B8204C"]
+	//*[name()='text' and @style="color:#333333;cursor:default;font-size:12px;fill:#333333;"]
+	//*[name()='path' and @fill="#B8204C"]/ancestor::*[name()='g' and @class="highcharts-series-group"]/following-sibling::*[name()='g' and @class="highcharts-label highcharts-tooltip highcharts-color-undefined"]/descendant::*[name()='text' and @style="color:#333333;cursor:default;font-size:12px;fill:#333333;"]
+	
 	
 	
 	
